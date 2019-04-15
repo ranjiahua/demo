@@ -1,4 +1,11 @@
 {
-    "name": "ranjiahua/demo",
-    "require": {}
+    "name": "rjh/demo",
+    "description": "11",
+    "type": "composer-plugin",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rjh\\Package\\": "src/"
+        }
+    }
 }
